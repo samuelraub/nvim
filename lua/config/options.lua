@@ -3,3 +3,4 @@
 -- Add any additional options here
 
 vim.opt.cursorline = false
+vim.opt.spelllang = { "en", "de" }
