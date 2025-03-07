@@ -14,7 +14,7 @@ return {
     local jump2d = require("mini.jump2d")
     local jump_line_start = jump2d.builtin_opts.line_start
     jump2d.setup({
-      labels = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+      labels = "abcdefghijklmnopqrstuvwxyz",
       spotter = jump_line_start.spotter,
       hooks = { after_jump = jump_line_start.hooks.after_jump },
       silent = true,
